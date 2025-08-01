@@ -1,36 +1,45 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Full stack Note App with AI Agent Integration
 
-## Getting Started
+<-------------->
+Frontend
 
-First, run the development server:
+Framework - Create-React/Vite/NextJS
+Components Library - None/Shadcn/Aceternity
+Language - Javascript/Typescript
+CSS - Vanilla/Tailwind
+Animation - Framer-Motion/GSAP
+Routing - React-Router/NextJS App Router
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<---------------->
+Backend
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Server - Express/NextJS/NestJS
+Authentication - JWT/AuthJS/Clerk with 0auth support
+Object Relation Mapper - Prisma/Drizzle
+Database - MongoDB/Postgres/Sqlite3
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<--------------->
+AI Agent
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+API - OPENAI/Deepseek/Gemini
+Prompt Engineering ->Need to visit Docs for the template
+Tool Calling ->same as above
 
-## Learn More
+<---------------->
+Deployment
+The application itself -> probably on vercel or digital ocean
+AI agent -> digital ocean or a local server
 
-To learn more about Next.js, take a look at the following resources:
+PS. CORS needs to be handled for both the application and the agent endpoints.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Pages
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [ ] Landing Page
+- [ ] All Notes Page
+- [ ] Specific Note Page
+- [ ] Login
+- [ ] Signup
 
-## Deploy on Vercel
+<---------------->
+Duration - 1 Week? 15 Days?
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
