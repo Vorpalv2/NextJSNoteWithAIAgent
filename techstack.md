@@ -1,4 +1,4 @@
-Full stack Note App
+Full stack Note App with AI Agent Integration
 
 <-------------->
 Frontend
@@ -19,6 +19,19 @@ Object Relation Mapper - Prisma/Drizzle
 Database - MongoDB/Postgres/Sqlite3
 
 <--------------->
+AI Agent
+
+API - OPENAI/Deepseek/Gemini
+Prompt Engineering ->Need to visit Docs for the template
+Tool Calling ->same as above
+
+<---------------->
+Deployment
+The application itself -> probably on vercel or digital ocean
+AI agent -> digital ocean or a local server
+
+PS. CORS needs to be handled for both the application and the agent endpoints.
+
 Pages
 
 - [ ] Landing Page
