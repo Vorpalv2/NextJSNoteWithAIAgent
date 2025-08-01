@@ -100,7 +100,15 @@ export default function ShowNoteCard({ props }: { props: NoteCardType }) {
 
   return (
     <motion.div ref={constraintRef}>
-      <motion.div drag dragConstraints={constraintRef} dragElastic={0.5}>
+      <motion.div
+        key={props.title}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.3 }}
+        drag
+        dragConstraints={constraintRef}
+        dragElastic={0.5}
+      >
         <form onSubmit={updateHandler}>
           <Card className="w-[16vw] h-[40vh] bg-white border-2 border-yellow-300 shadow-[4px_4px_0px_0px_rgba(0,0,0,0.1)] hover:scale-105 transition-transform duration-200 ease-in-out rounded-2xl overflow-hidden">
             {/* macOS-style buttons */}

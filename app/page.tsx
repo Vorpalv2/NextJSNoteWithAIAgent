@@ -131,6 +131,7 @@ const LandingPage = () => {
       </div>
 
       {/* Hero Section */}
+
       <div className="container mx-auto px-4 py-16 ">
         <motion.div className="text-center" ref={constraintsRef}>
           <h1
