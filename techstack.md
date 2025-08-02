@@ -17,9 +17,14 @@
 
 - **Language:** Node with Javascript/Typescript
 - **Server:** Express/NextJS/NestJS
-- **Authentication:** JWT/AuthJS/Clerk with 0auth support
-- **Object Relation Mapper:** Prisma/Drizzle
-- **Database:** MongoDB/Postgres/Sqlite3
+
+
+  #### Authentication
+  - **Authentication:** JWT/AuthJS/Clerk with 0auth support
+
+  #### Database
+  - **Object Relation Mapper:** Prisma/Drizzle
+  - **Database:** MongoDB/Postgres/Sqlite3
 
 ---
 
