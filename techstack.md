@@ -38,8 +38,8 @@
 
 ### Deployment
 
-- **Application:** Probably on Vercel or Digital Ocean
-- **AI Agent:** Digital Ocean or a local server
+- **Application:** Probably on AWS/Vercel or Digital Ocean
+- **AI Agent:** AWS/Digital Ocean or a local server
 
 **Note:** CORS needs to be handled for both the application and the agent endpoints.
 
