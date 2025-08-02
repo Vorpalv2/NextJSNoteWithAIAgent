@@ -3,9 +3,9 @@ Full stack Note App with AI Agent Integration
 <-------------->
 Frontend
 
+Language - Javascript/Typescript
 Framework - Create-React/Vite/NextJS
 Components Library - None/Shadcn/Aceternity
-Language - Javascript/Typescript
 CSS - Vanilla/Tailwind
 Animation - Framer-Motion/GSAP
 Routing - React-Router/NextJS App Router
@@ -13,6 +13,7 @@ Routing - React-Router/NextJS App Router
 <---------------->
 Backend
 
+Language - Node with Javascript/Typescript
 Server - Express/NextJS/NestJS
 Authentication - JWT/AuthJS/Clerk with 0auth support
 Object Relation Mapper - Prisma/Drizzle
